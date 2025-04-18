@@ -1,16 +1,16 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Actors/Additions/CActor_Addition.h"
-#include "CActor_Addition_Blue.generated.h"
+#include "Actors/CActor.h"
+#include "CActor_Subtraction.generated.h"
 
 UCLASS()
-class GAMEMATH_API ACActor_Addition_Blue : public ACActor_Addition
+class GAMEMATH_API ACActor_Subtraction : public ACActor
 {
 	GENERATED_BODY()
-
+	
 public:
-	ACActor_Addition_Blue();
+	ACActor_Subtraction();
 
 protected:
 	virtual void BeginPlay() override;

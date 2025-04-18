@@ -1,11 +1,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Actors/CActor.h"
+#include "Actors/Subtractions/CActor_Subtraction.h"
 #include "CActor_Subtraction_Green.generated.h"
 
 UCLASS()
-class GAMEMATH_API ACActor_Subtraction_Green : public ACActor
+class GAMEMATH_API ACActor_Subtraction_Green : public ACActor_Subtraction
 {
 	GENERATED_BODY()
 	
